@@ -41,6 +41,8 @@ v3 = Voiture("dy222", "honda", "verte")
 parc1.entrerVoiture(v1)
 parc1.entrerVoiture(v2)
 parc1.entrerVoiture(v3)
+parc1.sortirVoiture(v2)
+print("Places libres :", parc1.calculerNbrPlacesLibres())
 
 
 
