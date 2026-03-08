@@ -32,6 +32,9 @@ class Parc:
         else:
             print("La voiture n'est pas dans le parc")
 
+    def calculerNbrPlacesLibres(self):
+        return self.capacite - len(self.listeVoitures)
+
 
 
 
